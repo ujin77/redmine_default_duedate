@@ -1,0 +1,4 @@
+# English strings go here for Rails i18n
+ru:
+  # my_label: "My label"
+  label_default_duedate_days: "Срок выполнения по умолчанию"

@@ -1,0 +1,12 @@
+<table>
+  <tbody>
+    <tr>
+      <th><%= l(:label_default_duedate_days) %></th>
+      <td>
+        <input type="number" min="1" max="365" id="settings_default_duedate_days" 
+                           value="<%= @settings['default_duedate_days'] ? settings['default_duedate_days'] : 1  %>" 
+                           name="settings[default_duedate_days]" >
+      </td>
+    </tr>
+  </tbody>
+</table>
